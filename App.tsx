@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Header from './components/Header';
 import Assessment from './components/Assessment';
 import SkillGapView from './components/SkillGapView';
@@ -124,6 +125,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
